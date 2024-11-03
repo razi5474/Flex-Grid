@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    border: 3px solid black;
+    grid-template-columns: 350px 350px 350px ;  ;
+    gap: 15px;
+    margin: 20px;
+    padding:50px 100px;
+    justify-content: center;
+}
+
+img{
+    height: 200px;
+}
+
+.item{
+    background-color: white;
+    text-align: center;
+    border: 1px white;
+    padding: 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
